@@ -13,7 +13,7 @@ class GameBoard(tk.Tk):
 
     def __init__(self):
         super().__init__()
-        self.title("Connect 4")
+        self.title("Connect 4!")
         self.cells = {}
 
         self.create_board_display()
